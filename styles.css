@@ -4,19 +4,20 @@
     padding: 0;
 }
 
+.holder{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+ 
+}
+
 h1{
     width: 150px;
     height:150px;
     border: 1px solid green !important;
     background-color: red;
     margin-bottom: 10px;
-}
-#wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    flex-wrap: wrap;
-    padding: 100px;
 }
 
 /* Your CSS Code here. */
